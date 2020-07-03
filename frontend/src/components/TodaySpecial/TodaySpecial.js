@@ -1,5 +1,6 @@
 import React from 'react';
 import './TodaySpecial.css';
+import logo from './main.png';
 
 const TodaySpecial = ({ title }) => {
   return (
@@ -8,7 +9,7 @@ const TodaySpecial = ({ title }) => {
       <div
         className='today-image'
         style={{
-          backgroundImage: `url('https://c.ndtvimg.com/2019-05/ebsmi4t8_indian-curry_625x300_14_May_19.jpg')`,
+          backgroundImage: `url(${logo})`,
         }}
       ></div>
     </div>

@@ -28,7 +28,7 @@ function App() {
         />
         <Route
           exact
-          path='/reservation/:id/details'
+          path='/reservation/:id/detail'
           component={ServicesDetail}
         />
         <Route exact path='/' component={Home} />

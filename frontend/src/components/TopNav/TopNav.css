@@ -12,17 +12,17 @@
   box-sizing: border-box;
 }
 
-.screen-header__title {
-  margin-left: 1rem;
-  flex: 1;
-  font-size: 0.8rem;
-  font-weight: 600;
-  justify-content: center;
-  align-items: center;
+.screen-header__logo {
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .screen-header-info {
   flex: 4;
+  padding-left: 1rem;
 }
 
 .screen-header-info__top {

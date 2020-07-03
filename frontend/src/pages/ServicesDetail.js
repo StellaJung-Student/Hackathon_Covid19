@@ -16,7 +16,7 @@ function ServicesDetail({ match: params }) {
   }, [dispatch]);
   return (
     <>
-      <DetailMenu title={'Services'} />
+      <DetailMenu title={params.params.id} />
       <ServiceList services={services} />
     </>
   );
