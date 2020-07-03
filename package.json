@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "setup": "yarn --cwd frontend && yarn --cwd reservationSystem",
+    "start": "concurrently \"yarn --cwd frontend start\" \"yarn --cwd reservationSystem start\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
 }
